@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PLOFormatStruktur xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oio:medcom:plo:2009.12.31 http://svn.medcom.dk/svn/drafts/FNUX/Schemas/PLOFormatStruktur.xsd"
+ xmlns="urn:oio:medcom:plo:2009.12.31"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PakkeIdentifikator>4c18c549-ba7e-4185-a459-72bde29aa402</PakkeIdentifikator>
+  <PLOUdtraekStruktur>
+    <PLOHeaderStruktur>
+      <DelvistUdtraekIndikator>false</DelvistUdtraekIndikator>
+      <SystemIdentifikator>SystemIdentifikator</SystemIdentifikator>
+      <AfsenderNavn>AfsenderNavn</AfsenderNavn>
+      <DatoTid>2012-06-01T13:09:50Z</DatoTid>
+    </PLOHeaderStruktur>
+    <PatientUdtraekStruktur>
+      <StamdataStruktur>
+        <CPRnummerIdentifikator>0301010008</CPRnummerIdentifikator>
+        <FoedselsDato>1901-01-03</FoedselsDato>
+        <PersonKoenKode>Mand</PersonKoenKode>
+        <PersonNavnStruktur>
+          <PersonGivenName xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2003/02/13/">FMK Test</PersonGivenName>
+          <PersonMiddleName xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2003/02/13/">Patient</PersonMiddleName>
+          <PersonSurnameName xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2003/02/13/">8</PersonSurnameName>
+        </PersonNavnStruktur>
+        <SimpelAdresseStruktur>
+          <AdresseLinie1Tekst>Rødovrevej 253C</AdresseLinie1Tekst>
+          <PostCodeIdentifier xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2005/03/15/">2610</PostCodeIdentifier>
+          <DistrictName xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2005/03/15/">Rødovre</DistrictName>
+        </SimpelAdresseStruktur>
+        <RegionsKode>0084</RegionsKode>
+        <KommuneKode>0175</KommuneKode>
+        <StillingsbetegnelseNavn>Liggende</StillingsbetegnelseNavn>
+        <SygesikringsgruppeIdentifikator>1</SygesikringsgruppeIdentifikator>
+        <TelefonNummerStruktur>
+          <TelefonNummerIdentifikator>50506044</TelefonNummerIdentifikator>
+          <TelefonNummerAnvendelseKode>mobil</TelefonNummerAnvendelseKode>
+        </TelefonNummerStruktur>
+        <TelefonNummerStruktur>
+          <TelefonNummerIdentifikator>38770040</TelefonNummerIdentifikator>
+          <TelefonNummerAnvendelseKode>hjem</TelefonNummerAnvendelseKode>
+        </TelefonNummerStruktur>
+        <TelefonNummerStruktur>
+          <TelefonNummerIdentifikator>36340100</TelefonNummerIdentifikator>
+          <TelefonNummerAnvendelseKode>arbejde</TelefonNummerAnvendelseKode>
+        </TelefonNummerStruktur>
+        <EmailAdresseStruktur>
+          <EmailAdresseIdentifikator>info@a-data.dk</EmailAdresseIdentifikator>
+        </EmailAdresseStruktur>
+      </StamdataStruktur>
+      <BehandlerSamling>
+        <BehandlerStruktur>
+          <BehandlerIdentifikator>1</BehandlerIdentifikator>
+          <YderIdentifikator>41688</YderIdentifikator>
+          <PersonNavnStruktur>
+            <PersonGivenName xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2003/02/13/">Testlæge</PersonGivenName>
+            <PersonSurnameName xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2003/02/13/">Nummeret</PersonSurnameName>
+          </PersonNavnStruktur>
+          <BehandlerInitial>TNE</BehandlerInitial>
+          <AutorisationsIdentifikator>WNP01</AutorisationsIdentifikator>
+        </BehandlerStruktur>
+      </BehandlerSamling>
+      <CaveSamling>
+        <CaveStruktur>
+          <UUID>632bf03c-93d6-408e-91d1-a4bd672b01ae</UUID>
+          <OverskriftTekst>Cave-oplysninger</OverskriftTekst>
+          <KommentarLinieSamling>
+            <LinieTekst>Penicillin-allergi</LinieTekst>
+            <LinieTekst>Penicillin giver gulsot.</LinieTekst>
+          </KommentarLinieSamling>
+          <UUID>632bf03c-93d6-408e-91d1-a4bd672b01ah</UUID>
+          <OverskriftTekst>Cave-oplysninger</OverskriftTekst>
+          <KommentarLinieSamling>
+            <LinieTekst>Morfin</LinieTekst>
+            <LinieTekst>Giver anafylaktisk shock</LinieTekst>
+          </KommentarLinieSamling>
+        </CaveStruktur>
+      </CaveSamling>
+      <VaccinationSamling>
+        <VaccinationStruktur>
+          <UUID>f5cba89d-8e0f-4227-b804-e18b5afddb35</UUID>
+          <DatoTid>2012-06-01T09:33:05Z</DatoTid>
+          <VaccinationNavn>Twinrix</VaccinationNavn>
+          <BatchIdentifikator>1234</BatchIdentifikator>
+          <LinieTekst>Skal på ferie i Afrika</LinieTekst>
+          <UUID>f5cba89d-8e0f-4227-b804-e18b5afddb36</UUID>
+          <DatoTid>2012-06-01T09:33:05Z</DatoTid>
+          <VaccinationNavn>Dite</VaccinationNavn>
+          <BatchIdentifikator>1234</BatchIdentifikator>
+          <LinieTekst>Stikskade i arbejde som sgpl.</LinieTekst>
+        </VaccinationStruktur>
+      </VaccinationSamling>
+      <NoteSamling>
+        <NoteStruktur>
+          <UUID>89360672-358e-4473-b3c5-12974ee543ca</UUID>
+          <EgneNoterKode>Kontinuation</EgneNoterKode>
+          <DatoTid>2022-06-01T08:55:33Z</DatoTid>
+          <Tekst>
+            <p xmlns="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+              <r>
+                <t>Kendt tidl cancer. Har aktuelt mavepine og smerter i øvre abdomen. Usikkert hvor lang tid han har haft symptomer. Han har tabt sig en del på det sidste, det er uklart hvorfor. </t>
+              </r>
+              <r>
+                <rPr>
+                  <b />
+                </rPr>
+                <t>Opkast gennem 3 dage. Få kontakter til læge. </t>
+              </r>
+            </p>
+          </Tekst>
+          <UUID>89360672-358e-4473-b3c5-12974ee543cb</UUID>
+          <EgneNoterKode>Kontinuation</EgneNoterKode>
+          <DatoTid>2011-06-01T08:55:33Z</DatoTid>
+          <Tekst>
+            <p xmlns="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+              <r>
+                <t>Kendt med leddegigt. Får biologisk behandling. Kendt rygsmerter siden 2000. Har I mange år kæmpet med forskellige typer af ledsmerter. </t>
+              </r>
+            </p>
+          </Tekst>
+          <BehandlerIdentifikator>1</BehandlerIdentifikator>
+        </NoteStruktur>
+      </NoteSamling>
+      <DiagnoseSamling>
+        <DiagnoseStruktur>
+          <UUID>063ef763-c7de-4b01-b8e6-29a3042886f6</UUID>
+          <KodeStruktur>
+            <KlassifikationsIdentifikator>ICPC2</KlassifikationsIdentifikator>
+            <Kode>D26</Kode>
+            <KodeTekst>Frygt for kræft i fordøjelsessystem</KodeTekst>
+            <KlassifikationsIdentifikator>ICPCE</KlassifikationsIdentifikator>
+            <Kode>D74</Kode>
+            <KodeTekst>Kræft i mavesæk</KodeTekst>
+          </KodeStruktur>
+          <AekvivalentKodeStruktur>
+            <KlassifikationsIdentifikator>ICD10</KlassifikationsIdentifikator>
+            <Kode>R101</Kode>
+            <KodeTekst>Abdominalia lokaliseret til øvre abdomen</KodeTekst>
+          </AekvivalentKodeStruktur>
+        </DiagnoseStruktur>
+      </DiagnoseSamling>
+      <LabSkemaSamling>
+        <LabSkemaStruktur>
+          <UUID>1a6b3d4f-5ca4-419a-bdf8-dce1236fb6fb</UUID>
+          <DatoTid>2012-05-31T06:06:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <AnalyseKodeStruktur>
+            <AnalyseTabelIdentifikator>CQU</AnalyseTabelIdentifikator>
+            <AnalyseKodeIdentifikator>NPU03230</AnalyseKodeIdentifikator>
+            <AnalyseKortNavn>Kalium;S</AnalyseKortNavn>
+          </AnalyseKodeStruktur>
+          <LangtNavnTekst>S-Kalium-ion; stofk.</LangtNavnTekst>
+          <RekvisitionsIdentifikator>11815557</RekvisitionsIdentifikator>
+          <ProducentNavn>A-Data A/S Laboratorium</ProducentNavn>
+          <ResultatStruktur>
+            <ResultatTekst>4.7</ResultatTekst>
+            <ResultatEnhedKode>mmol/l</ResultatEnhedKode>
+          </ResultatStruktur>
+          <MinRefTekst>3.6</MinRefTekst>
+          <MaxRefTekst>4.6</MaxRefTekst>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>73a6543d-b497-42a2-8f3c-21f7087782b3</UUID>
+          <DatoTid>2012-05-31T06:06:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <AnalyseKodeStruktur>
+            <AnalyseTabelIdentifikator>CQU</AnalyseTabelIdentifikator>
+            <AnalyseKodeIdentifikator>NPU03429</AnalyseKodeIdentifikator>
+            <AnalyseKortNavn>Natrium;P</AnalyseKortNavn>
+          </AnalyseKodeStruktur>
+          <LangtNavnTekst>P-Natrium-ion; stofk.</LangtNavnTekst>
+          <RekvisitionsIdentifikator>11815557</RekvisitionsIdentifikator>
+          <ProducentNavn>A-Data A/S Laboratorium</ProducentNavn>
+          <ResultatStruktur>
+            <ResultatTekst>142</ResultatTekst>
+            <ResultatEnhedKode>mmol/l</ResultatEnhedKode>
+          </ResultatStruktur>
+          <MinRefTekst>137</MinRefTekst>
+          <MaxRefTekst>145</MaxRefTekst>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>05360b84-2423-4733-a600-0f7d1d137e31</UUID>
+          <DatoTid>2012-05-31T06:06:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <AnalyseKodeStruktur>
+            <AnalyseTabelIdentifikator>CQU</AnalyseTabelIdentifikator>
+            <AnalyseKodeIdentifikator>NPU03577</AnalyseKodeIdentifikator>
+            <AnalyseKortNavn>TSH;P</AnalyseKortNavn>
+          </AnalyseKodeStruktur>
+          <LangtNavnTekst>P-Thyrotropin; arb.stofk.(IRP80/558)</LangtNavnTekst>
+          <RekvisitionsIdentifikator>11815557</RekvisitionsIdentifikator>
+          <ProducentNavn>A-Data A/S Laboratorium</ProducentNavn>
+          <ResultatStruktur>
+            <ResultatTekst>3.1</ResultatTekst>
+            <ResultatEnhedKode>miu/l</ResultatEnhedKode>
+          </ResultatStruktur>
+          <MinRefTekst>0.20</MinRefTekst>
+          <MaxRefTekst>5.00</MaxRefTekst>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>931f9700-bed2-4ae7-9771-43b591521cc3</UUID>
+          <DatoTid>2012-05-31T06:06:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <AnalyseKodeStruktur>
+            <AnalyseTabelIdentifikator>CQU</AnalyseTabelIdentifikator>
+            <AnalyseKodeIdentifikator>NPU10171</AnalyseKodeIdentifikator>
+            <AnalyseKortNavn>LDL-Cholesterol;P(fPt)</AnalyseKortNavn>
+          </AnalyseKodeStruktur>
+          <LangtNavnTekst>P(fPt)-Cholesterol+ester, i LDL; stofk.</LangtNavnTekst>
+          <RekvisitionsIdentifikator>11815557</RekvisitionsIdentifikator>
+          <ProducentNavn>A-Data A/S Laboratorium</ProducentNavn>
+          <ResultatStruktur>
+            <ResultatTekst>2.0</ResultatTekst>
+            <ResultatEnhedKode>mmol/l</ResultatEnhedKode>
+          </ResultatStruktur>
+          <MinRefTekst>2.0</MinRefTekst>
+          <MaxRefTekst>5.4</MaxRefTekst>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>62f73ef0-8459-4b79-9d8a-bdd470af29a1</UUID>
+          <DatoTid>2012-05-31T06:06:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <AnalyseKodeStruktur>
+            <AnalyseTabelIdentifikator>CQU</AnalyseTabelIdentifikator>
+            <AnalyseKodeIdentifikator>NPU19651</AnalyseKodeIdentifikator>
+            <AnalyseKortNavn>ALAT;P</AnalyseKortNavn>
+          </AnalyseKodeStruktur>
+          <LangtNavnTekst>P-Alanintransaminase; kat.k.(IFCC 1998)</LangtNavnTekst>
+          <RekvisitionsIdentifikator>11815557</RekvisitionsIdentifikator>
+          <ProducentNavn>A-Data A/S Laboratorium</ProducentNavn>
+          <ResultatStruktur>
+            <ResultatTekst>10</ResultatTekst>
+            <ResultatEnhedKode>U/l</ResultatEnhedKode>
+          </ResultatStruktur>
+          <MinRefTekst>10</MinRefTekst>
+          <MaxRefTekst>45</MaxRefTekst>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>6bbbaa00-febd-4117-a355-0dc82a064dbc</UUID>
+          <DatoTid>2012-05-31T06:06:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <AnalyseKodeStruktur>
+            <AnalyseTabelIdentifikator>CQU</AnalyseTabelIdentifikator>
+            <AnalyseKodeIdentifikator>NPU19655</AnalyseKodeIdentifikator>
+            <AnalyseKortNavn>Bas.fosfatase;P</AnalyseKortNavn>
+          </AnalyseKodeStruktur>
+          <LangtNavnTekst>P-Basisk phosphatase; kat.k.(IFCC 1998)</LangtNavnTekst>
+          <RekvisitionsIdentifikator>11815557</RekvisitionsIdentifikator>
+          <ProducentNavn>A-Data A/S Laboratorium</ProducentNavn>
+          <ResultatStruktur>
+            <ResultatTekst>77</ResultatTekst>
+            <ResultatEnhedKode>U/l</ResultatEnhedKode>
+          </ResultatStruktur>
+          <MinRefTekst>35</MinRefTekst>
+          <MaxRefTekst>105</MaxRefTekst>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>f0b66ebf-95b9-446f-932d-a5492317e8ca</UUID>
+          <DatoTid>2012-05-31T06:06:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <AnalyseKodeStruktur>
+            <AnalyseTabelIdentifikator>CQU</AnalyseTabelIdentifikator>
+            <AnalyseKodeIdentifikator>NPU01566</AnalyseKodeIdentifikator>
+            <AnalyseKortNavn>Cholesterol;P</AnalyseKortNavn>
+          </AnalyseKodeStruktur>
+          <LangtNavnTekst>P-Cholesterol+ester; stofk.</LangtNavnTekst>
+          <RekvisitionsIdentifikator>11815557</RekvisitionsIdentifikator>
+          <ProducentNavn>A-Data A/S Laboratorium</ProducentNavn>
+          <ResultatStruktur>
+            <ResultatTekst>3.9</ResultatTekst>
+            <ResultatEnhedKode>mmol/l</ResultatEnhedKode>
+          </ResultatStruktur>
+          <MinRefTekst>4.0</MinRefTekst>
+          <MaxRefTekst>7.9</MaxRefTekst>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>83b0d2e9-99d5-4de7-93c0-36610587c342</UUID>
+          <DatoTid>2012-05-31T06:06:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <AnalyseKodeStruktur>
+            <AnalyseTabelIdentifikator>CQU</AnalyseTabelIdentifikator>
+            <AnalyseKodeIdentifikator>NPU18016</AnalyseKodeIdentifikator>
+            <AnalyseKortNavn>Creatinin;P</AnalyseKortNavn>
+          </AnalyseKodeStruktur>
+          <LangtNavnTekst>P-Creatininium; stofk.</LangtNavnTekst>
+          <RekvisitionsIdentifikator>11815557</RekvisitionsIdentifikator>
+          <ProducentNavn>A-Data A/S Laboratorium</ProducentNavn>
+          <ResultatStruktur>
+            <ResultatTekst>92</ResultatTekst>
+            <ResultatEnhedKode>µmol/l</ResultatEnhedKode>
+          </ResultatStruktur>
+          <MinRefTekst>45</MinRefTekst>
+          <MaxRefTekst>90</MaxRefTekst>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>226e389d-935c-4c2f-96bc-4428b38629b7</UUID>
+          <DatoTid>2012-05-31T06:06:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <AnalyseKodeStruktur>
+            <AnalyseTabelIdentifikator>CQU</AnalyseTabelIdentifikator>
+            <AnalyseKodeIdentifikator>NPU19657</AnalyseKodeIdentifikator>
+            <AnalyseKortNavn>Gamma-GT;P</AnalyseKortNavn>
+          </AnalyseKodeStruktur>
+          <LangtNavnTekst>P-gamma-Glutamyltransferase (IFCC 1998)</LangtNavnTekst>
+          <RekvisitionsIdentifikator>11815557</RekvisitionsIdentifikator>
+          <ProducentNavn>A-Data A/S Laboratorium</ProducentNavn>
+          <ResultatStruktur>
+            <ResultatTekst>11</ResultatTekst>
+            <ResultatEnhedKode>U/l</ResultatEnhedKode>
+          </ResultatStruktur>
+          <MinRefTekst>10</MinRefTekst>
+          <MaxRefTekst>75</MaxRefTekst>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>d62c4519-243c-4daa-b8ec-50cc39717025</UUID>
+          <DatoTid>2012-05-31T06:06:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <AnalyseKodeStruktur>
+            <AnalyseTabelIdentifikator>CQU</AnalyseTabelIdentifikator>
+            <AnalyseKodeIdentifikator>NPU01567</AnalyseKodeIdentifikator>
+            <AnalyseKortNavn>HDL-Cholesterol;P</AnalyseKortNavn>
+          </AnalyseKodeStruktur>
+          <LangtNavnTekst>P-Cholesterol+ester, i HDL; stofk.</LangtNavnTekst>
+          <RekvisitionsIdentifikator>11815557</RekvisitionsIdentifikator>
+          <ProducentNavn>A-Data A/S Laboratorium</ProducentNavn>
+          <ResultatStruktur>
+            <ResultatTekst>0.87</ResultatTekst>
+            <ResultatEnhedKode>mmol/l</ResultatEnhedKode>
+          </ResultatStruktur>
+          <MinRefTekst>1.03</MinRefTekst>
+          <MaxRefTekst>2.61</MaxRefTekst>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>2afa6dad-c364-4786-a978-964decdccf08</UUID>
+          <DatoTid>2012-05-31T06:06:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <AnalyseKodeStruktur>
+            <AnalyseTabelIdentifikator>TST</AnalyseTabelIdentifikator>
+            <AnalyseKodeIdentifikator>TST00290</AnalyseKodeIdentifikator>
+            <AnalyseKortNavn>Glucose,faste;S</AnalyseKortNavn>
+          </AnalyseKodeStruktur>
+          <LangtNavnTekst>S(vP;fPt)-Glucose; stofk.</LangtNavnTekst>
+          <RekvisitionsIdentifikator>11815557</RekvisitionsIdentifikator>
+          <ProducentNavn>A-Data A/S Laboratorium</ProducentNavn>
+          <ResultatStruktur>
+            <ResultatTekst>4.9</ResultatTekst>
+            <ResultatEnhedKode>mmol/l</ResultatEnhedKode>
+          </ResultatStruktur>
+          <MinRefTekst>4.0</MinRefTekst>
+          <MaxRefTekst>6.0</MaxRefTekst>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>510f289f-2959-4d97-8509-bef84bcf5f4c</UUID>
+          <DatoTid>2012-05-31T06:06:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <AnalyseKodeStruktur>
+            <AnalyseTabelIdentifikator>CQU</AnalyseTabelIdentifikator>
+            <AnalyseKodeIdentifikator>NPU03620</AnalyseKodeIdentifikator>
+            <AnalyseKortNavn>Triglycerid;P(fPt)</AnalyseKortNavn>
+          </AnalyseKodeStruktur>
+          <LangtNavnTekst>P(fPt)-Triglycerid; stofk.</LangtNavnTekst>
+          <RekvisitionsIdentifikator>11815557</RekvisitionsIdentifikator>
+          <ProducentNavn>A-Data A/S Laboratorium</ProducentNavn>
+          <ResultatStruktur>
+            <ResultatTekst>2.39</ResultatTekst>
+            <ResultatEnhedKode>mmol/l</ResultatEnhedKode>
+          </ResultatStruktur>
+          <MinRefTekst>0.47</MinRefTekst>
+          <MaxRefTekst>2.60</MaxRefTekst>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>68896717-3f63-46a2-84dc-b377de9b8815</UUID>
+          <DatoTid>2012-05-31T06:06:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <AnalyseKodeStruktur>
+            <AnalyseTabelIdentifikator>CQU</AnalyseTabelIdentifikator>
+            <AnalyseKodeIdentifikator>DNK35131</AnalyseKodeIdentifikator>
+            <AnalyseKortNavn>eGFR; Nyre</AnalyseKortNavn>
+          </AnalyseKodeStruktur>
+          <LangtNavnTekst>Nyre-Glomerulær filtration; vol.hast.(ovfkorr.; DSKB-DNS 2009)</LangtNavnTekst>
+          <RekvisitionsIdentifikator>11815557</RekvisitionsIdentifikator>
+          <ProducentNavn>A-Data A/S Laboratorium</ProducentNavn>
+          <ResultatStruktur>
+            <ResultatTekst>53</ResultatTekst>
+            <ResultatEnhedKode>ml/min</ResultatEnhedKode>
+          </ResultatStruktur>
+          <MinRefTekst>54</MinRefTekst>
+          <MaxRefTekst>109</MaxRefTekst>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>cbc49545-0dd6-4956-96e7-22e024720e98</UUID>
+          <DatoTid>2012-06-01T09:10:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <LangtNavnTekst>Blodtryk</LangtNavnTekst>
+          <ResultatStruktur>
+            <ResultatTekst>110/70</ResultatTekst>
+          </ResultatStruktur>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>316dd9b1-6d57-43b6-a4f2-23b828f6ca63</UUID>
+          <DatoTid>2012-06-01T09:10:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <LangtNavnTekst>Puls</LangtNavnTekst>
+          <ResultatStruktur>
+            <ResultatTekst>60</ResultatTekst>
+            <ResultatEnhedKode>slag/min</ResultatEnhedKode>
+          </ResultatStruktur>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>3a976b7e-6be5-4b3d-bfbe-4dabdb4b66ed</UUID>
+          <DatoTid>2012-06-01T09:10:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <AnalyseKodeStruktur>
+            <AnalyseTabelIdentifikator>CQU</AnalyseTabelIdentifikator>
+            <AnalyseKodeIdentifikator>NPU03804</AnalyseKodeIdentifikator>
+          </AnalyseKodeStruktur>
+          <LangtNavnTekst>Pt-Legeme; masse</LangtNavnTekst>
+          <ResultatStruktur>
+            <ResultatTekst>60.0</ResultatTekst>
+            <ResultatEnhedKode>kg</ResultatEnhedKode>
+          </ResultatStruktur>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>20dd3f25-da73-4c73-83a7-569ea2cd33fe</UUID>
+          <DatoTid>2012-06-01T09:10:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <AnalyseKodeStruktur>
+            <AnalyseTabelIdentifikator>MCS</AnalyseTabelIdentifikator>
+            <AnalyseKodeIdentifikator>MCS88018</AnalyseKodeIdentifikator>
+            <AnalyseKortNavn>Livvidde</AnalyseKortNavn>
+          </AnalyseKodeStruktur>
+          <LangtNavnTekst>Livvidde i cm.</LangtNavnTekst>
+          <ResultatStruktur>
+            <ResultatTekst>70</ResultatTekst>
+            <ResultatEnhedKode>cm</ResultatEnhedKode>
+          </ResultatStruktur>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+        <LabSkemaStruktur>
+          <UUID>ab36c023-bf89-4cb6-b553-38d576e4983f</UUID>
+          <DatoTid>2012-06-01T09:10:00Z</DatoTid>
+          <LabKategoriKode>kemi</LabKategoriKode>
+          <LangtNavnTekst>Hoftemål</LangtNavnTekst>
+          <ResultatStruktur>
+            <ResultatTekst>80</ResultatTekst>
+            <ResultatEnhedKode>cm.</ResultatEnhedKode>
+          </ResultatStruktur>
+          <EndeligtSvarIndikator>true</EndeligtSvarIndikator>
+        </LabSkemaStruktur>
+      </LabSkemaSamling>
+      <BoerneSkemaSamling>
+        <BoerneSkemaStruktur>
+          <UUID>d76fef65-ff8a-443e-be2f-70bbf9acaca5</UUID>
+          <BoerneUndersoegelsesKode>5 år</BoerneUndersoegelsesKode>
+          <DatoTid>2012-05-31T22:00:00Z</DatoTid>
+          <KommentarLinieSamling>
+            <LinieTekst>Har lige haft mæslinger.</LinieTekst>
+          </KommentarLinieSamling>
+          <BoerneSkemaAnalyseStruktur>
+            <BoerneSkemaAnalyseKode>hoejde</BoerneSkemaAnalyseKode>
+            <ResultatStruktur>
+              <ResultatTekst>150</ResultatTekst>
+              <ResultatEnhedKode>centimeter</ResultatEnhedKode>
+            </ResultatStruktur>
+          </BoerneSkemaAnalyseStruktur>
+          <BoerneSkemaAnalyseStruktur>
+            <BoerneSkemaAnalyseKode>vaegt</BoerneSkemaAnalyseKode>
+            <ResultatStruktur>
+              <ResultatTekst>60000</ResultatTekst>
+              <ResultatEnhedKode>gram</ResultatEnhedKode>
+            </ResultatStruktur>
+          </BoerneSkemaAnalyseStruktur>
+          <BoerneSkemaAnalyseStruktur>
+            <BoerneSkemaAnalyseKode>homf</BoerneSkemaAnalyseKode>
+            <ResultatStruktur>
+              <ResultatTekst>500</ResultatTekst>
+              <ResultatEnhedKode>millimeter</ResultatEnhedKode>
+            </ResultatStruktur>
+          </BoerneSkemaAnalyseStruktur>
+          <BoerneSkemaAnalyseStruktur>
+            <BoerneSkemaAnalyseKode>syn.v</BoerneSkemaAnalyseKode>
+            <ResultatStruktur>
+              <ResultatTekst>6/6</ResultatTekst>
+              <ResultatEnhedKode>andet</ResultatEnhedKode>
+            </ResultatStruktur>
+          </BoerneSkemaAnalyseStruktur>
+          <BoerneSkemaAnalyseStruktur>
+            <BoerneSkemaAnalyseKode>syn.h</BoerneSkemaAnalyseKode>
+            <ResultatStruktur>
+              <ResultatTekst>6/12</ResultatTekst>
+              <ResultatEnhedKode>andet</ResultatEnhedKode>
+            </ResultatStruktur>
+          </BoerneSkemaAnalyseStruktur>
+          <BoerneSkemaAnalyseStruktur>
+            <BoerneSkemaAnalyseKode>hoer.v</BoerneSkemaAnalyseKode>
+            <ResultatStruktur>
+              <ResultatTekst>normal</ResultatTekst>
+              <ResultatEnhedKode>andet</ResultatEnhedKode>
+            </ResultatStruktur>
+          </BoerneSkemaAnalyseStruktur>
+          <BoerneSkemaAnalyseStruktur>
+            <BoerneSkemaAnalyseKode>hoer.h</BoerneSkemaAnalyseKode>
+            <ResultatStruktur>
+              <ResultatTekst>døv</ResultatTekst>
+              <ResultatEnhedKode>andet</ResultatEnhedKode>
+            </ResultatStruktur>
+          </BoerneSkemaAnalyseStruktur>
+        </BoerneSkemaStruktur>
+      </BoerneSkemaSamling>
+      <MedicinOrdinationSamling>
+        <MedicinOrdinationStruktur>
+          <PraeparatStruktur>
+            <PraeparatVareNavn>Surlid</PraeparatVareNavn>
+            <PraeparatVareIdentifikator>431098</PraeparatVareIdentifikator>
+            <AtcKode>J01FA06</AtcKode>
+          </PraeparatStruktur>
+          <MedicinOrdinationStatusKode>normal</MedicinOrdinationStatusKode>
+          <MedicinStyrkeTekst>150 mg</MedicinStyrkeTekst>
+          <MedicinPakningStoerrelseTekst>20 stk. (blister)</MedicinPakningStoerrelseTekst>
+          <MedicinPakkeFormTekst>filmovertrukne tabl.</MedicinPakkeFormTekst>
+          <MedicinEnkeltOrdinationStruktur>
+            <UUID>034a92b4-ee18-4e0a-ba15-a921fa3ae84c</UUID>
+            <Dato>2009-05-11</Dato>
+            <IndikationNavn>mod halsbetændelse</IndikationNavn>
+            <DoseringsMoensterTekst>1 tablet 2 gange daglig 15 minutter før et måltid</DoseringsMoensterTekst>
+            <PakningsAntalKvantitet>1</PakningsAntalKvantitet>
+          </MedicinEnkeltOrdinationStruktur>
+        </MedicinOrdinationStruktur>
+        <MedicinOrdinationStruktur>
+          <PraeparatStruktur>
+            <PraeparatVareNavn>Marevan</PraeparatVareNavn>
+            <PraeparatVareIdentifikator>116657</PraeparatVareIdentifikator>
+            <AtcKode>B01AA03</AtcKode>
+          </PraeparatStruktur>
+          <MedicinOrdinationStatusKode>normal</MedicinOrdinationStatusKode>
+          <MedicinStyrkeTekst>2,5 mg</MedicinStyrkeTekst>
+          <MedicinPakningStoerrelseTekst>100 stk.</MedicinPakningStoerrelseTekst>
+          <MedicinPakkeFormTekst>tabletter</MedicinPakkeFormTekst>
+          <MedicinEnkeltOrdinationStruktur>
+            <UUID>1e557136-2189-40b8-a864-997007622413</UUID>
+            <Dato>2009-08-27</Dato>
+            <IndikationNavn>blodfortyndende</IndikationNavn>
+            <DoseringsMoensterTekst>1 tablet daglig</DoseringsMoensterTekst>
+            <PakningsAntalKvantitet>1</PakningsAntalKvantitet>
+          </MedicinEnkeltOrdinationStruktur>
+        </MedicinOrdinationStruktur>
+        <MedicinOrdinationStruktur>
+          <PraeparatStruktur>
+            <PraeparatVareNavn>Panodil Brus</PraeparatVareNavn>
+            <PraeparatVareIdentifikator>550061</PraeparatVareIdentifikator>
+            <AtcKode>N02BE01</AtcKode>
+          </PraeparatStruktur>
+          <MedicinOrdinationStatusKode>normal</MedicinOrdinationStatusKode>
+          <MedicinStyrkeTekst>500 mg</MedicinStyrkeTekst>
+          <MedicinPakningStoerrelseTekst>24 stk.</MedicinPakningStoerrelseTekst>
+          <MedicinPakkeFormTekst>brusetabletter</MedicinPakkeFormTekst>
+          <MedicinEnkeltOrdinationStruktur>
+            <UUID>9801367d-4178-4cf7-a251-43591186a0a5</UUID>
+            <Dato>2012-04-25</Dato>
+            <IndikationNavn>mod smerter</IndikationNavn>
+            <DoseringsMoensterTekst>1 tablet 3 gange daglig</DoseringsMoensterTekst>
+            <PakningsAntalKvantitet>1</PakningsAntalKvantitet>
+            <GenudleveringsAntalKvantitet>4</GenudleveringsAntalKvantitet>
+          </MedicinEnkeltOrdinationStruktur>
+        </MedicinOrdinationStruktur>
+        <MedicinOrdinationStruktur>
+          <PraeparatStruktur>
+            <PraeparatVareNavn>Panodil</PraeparatVareNavn>
+            <PraeparatVareIdentifikator>083865</PraeparatVareIdentifikator>
+            <AtcKode>N02BE01</AtcKode>
+          </PraeparatStruktur>
+          <MedicinOrdinationStatusKode>fast</MedicinOrdinationStatusKode>
+          <MedicinStyrkeTekst>500 mg</MedicinStyrkeTekst>
+          <MedicinPakningStoerrelseTekst>300 stk. (dåse)</MedicinPakningStoerrelseTekst>
+          <MedicinPakkeFormTekst>filmovertrukne tabl.</MedicinPakkeFormTekst>
+          <MedicinEnkeltOrdinationStruktur>
+            <UUID>fdc6b3d1-8f91-4935-a0cc-f96713568345</UUID>
+            <Dato>2009-08-27</Dato>
+            <IndikationNavn>mod smerter</IndikationNavn>
+            <DoseringsMoensterTekst>1 tablet 3 gange daglig</DoseringsMoensterTekst>
+            <PakningsAntalKvantitet>3</PakningsAntalKvantitet>
+            <GenudleveringsAntalKvantitet>3</GenudleveringsAntalKvantitet>
+          </MedicinEnkeltOrdinationStruktur>
+        </MedicinOrdinationStruktur>
+        <MedicinOrdinationStruktur>
+          <PraeparatStruktur>
+            <PraeparatVareNavn>Pinex</PraeparatVareNavn>
+            <PraeparatVareIdentifikator>056223</PraeparatVareIdentifikator>
+            <AtcKode>N02BE01</AtcKode>
+          </PraeparatStruktur>
+          <MedicinOrdinationStatusKode>fast</MedicinOrdinationStatusKode>
+          <MedicinStyrkeTekst>500 mg</MedicinStyrkeTekst>
+          <MedicinPakningStoerrelseTekst>50 stk.</MedicinPakningStoerrelseTekst>
+          <MedicinPakkeFormTekst>filmovertrukne tabl.</MedicinPakkeFormTekst>
+          <MedicinEnkeltOrdinationStruktur>
+            <UUID>7bd9839d-db53-466f-9dfa-bdc61b6a2e9a</UUID>
+            <Dato>2009-08-27</Dato>
+            <IndikationNavn>mod smerter</IndikationNavn>
+            <DoseringsMoensterTekst>1 tablet 3 gange daglig</DoseringsMoensterTekst>
+            <PakningsAntalKvantitet>3</PakningsAntalKvantitet>
+            <GenudleveringsAntalKvantitet>3</GenudleveringsAntalKvantitet>
+          </MedicinEnkeltOrdinationStruktur>
+        </MedicinOrdinationStruktur>
+        <MedicinOrdinationStruktur>
+          <PraeparatStruktur>
+            <PraeparatVareNavn>Panodil</PraeparatVareNavn>
+            <PraeparatVareIdentifikator>083865</PraeparatVareIdentifikator>
+            <AtcKode>N02BE01</AtcKode>
+          </PraeparatStruktur>
+          <MedicinOrdinationStatusKode>fast</MedicinOrdinationStatusKode>
+          <MedicinStyrkeTekst>500 mg</MedicinStyrkeTekst>
+          <MedicinPakningStoerrelseTekst>300 stk. (dåse)</MedicinPakningStoerrelseTekst>
+          <MedicinPakkeFormTekst>filmovertrukne tabl.</MedicinPakkeFormTekst>
+          <MedicinEnkeltOrdinationStruktur>
+            <UUID>d903061c-1817-459e-921c-531b62d2b330</UUID>
+            <Dato>2009-08-27</Dato>
+            <IndikationNavn>mod smerter</IndikationNavn>
+            <DoseringsMoensterTekst>1 tablet 3 gange daglig</DoseringsMoensterTekst>
+            <PakningsAntalKvantitet>3</PakningsAntalKvantitet>
+            <GenudleveringsAntalKvantitet>3</GenudleveringsAntalKvantitet>
+          </MedicinEnkeltOrdinationStruktur>
+        </MedicinOrdinationStruktur>
+        <MedicinOrdinationStruktur>
+          <PraeparatStruktur>
+            <PraeparatVareNavn>Antabus</PraeparatVareNavn>
+            <PraeparatVareIdentifikator>095588</PraeparatVareIdentifikator>
+            <AtcKode>N07BB01</AtcKode>
+          </PraeparatStruktur>
+          <MedicinOrdinationStatusKode>fast</MedicinOrdinationStatusKode>
+          <MedicinStyrkeTekst>400 mg</MedicinStyrkeTekst>
+          <MedicinPakningStoerrelseTekst>50 stk.</MedicinPakningStoerrelseTekst>
+          <MedicinPakkeFormTekst>brusetabletter</MedicinPakkeFormTekst>
+          <MedicinEnkeltOrdinationStruktur>
+            <UUID>04156799-17ad-4a98-b51f-154ea88ea549</UUID>
+            <Dato>2009-08-27</Dato>
+            <IndikationNavn>mod alkoholisme</IndikationNavn>
+            <DoseringsMoensterTekst>2 tabletter daglig</DoseringsMoensterTekst>
+            <PakningsAntalKvantitet>1</PakningsAntalKvantitet>
+          </MedicinEnkeltOrdinationStruktur>
+        </MedicinOrdinationStruktur>
+        <MedicinOrdinationStruktur>
+          <PraeparatStruktur>
+            <PraeparatVareNavn>Pinex</PraeparatVareNavn>
+            <PraeparatVareIdentifikator>056223</PraeparatVareIdentifikator>
+            <AtcKode>N02BE01</AtcKode>
+          </PraeparatStruktur>
+          <MedicinOrdinationStatusKode>fast</MedicinOrdinationStatusKode>
+          <MedicinStyrkeTekst>500 mg</MedicinStyrkeTekst>
+          <MedicinPakningStoerrelseTekst>50 stk.</MedicinPakningStoerrelseTekst>
+          <MedicinPakkeFormTekst>filmovertrukne tabl.</MedicinPakkeFormTekst>
+          <MedicinEnkeltOrdinationStruktur>
+            <UUID>d86ef003-2059-4a13-b2dc-43057073bd58</UUID>
+            <Dato>2009-08-27</Dato>
+            <IndikationNavn>mod smerter</IndikationNavn>
+            <DoseringsMoensterTekst>1 tablet 3 gange daglig</DoseringsMoensterTekst>
+            <PakningsAntalKvantitet>3</PakningsAntalKvantitet>
+            <GenudleveringsAntalKvantitet>3</GenudleveringsAntalKvantitet>
+          </MedicinEnkeltOrdinationStruktur>
+        </MedicinOrdinationStruktur>
+        <MedicinOrdinationStruktur>
+          <PraeparatStruktur>
+            <PraeparatVareNavn>Panodil</PraeparatVareNavn>
+            <PraeparatVareIdentifikator>083865</PraeparatVareIdentifikator>
+            <AtcKode>N02BE01</AtcKode>
+          </PraeparatStruktur>
+          <MedicinOrdinationStatusKode>fast</MedicinOrdinationStatusKode>
+          <MedicinStyrkeTekst>500 mg</MedicinStyrkeTekst>
+          <MedicinPakningStoerrelseTekst>300 stk. (dåse)</MedicinPakningStoerrelseTekst>
+          <MedicinPakkeFormTekst>filmovertrukne tabl.</MedicinPakkeFormTekst>
+          <MedicinEnkeltOrdinationStruktur>
+            <UUID>8ae8ff1f-10d5-49cf-bf22-e287ba042d67</UUID>
+            <Dato>2009-08-27</Dato>
+            <IndikationNavn>mod smerter</IndikationNavn>
+            <DoseringsMoensterTekst>1 tablet 3 gange daglig</DoseringsMoensterTekst>
+            <PakningsAntalKvantitet>3</PakningsAntalKvantitet>
+            <GenudleveringsAntalKvantitet>3</GenudleveringsAntalKvantitet>
+          </MedicinEnkeltOrdinationStruktur>
+        </MedicinOrdinationStruktur>
+        <MedicinOrdinationStruktur>
+          <PraeparatStruktur>
+            <PraeparatVareNavn>Antabus</PraeparatVareNavn>
+            <PraeparatVareIdentifikator>095588</PraeparatVareIdentifikator>
+            <AtcKode>N07BB01</AtcKode>
+          </PraeparatStruktur>
+          <MedicinOrdinationStatusKode>fast</MedicinOrdinationStatusKode>
+          <MedicinStyrkeTekst>400 mg</MedicinStyrkeTekst>
+          <MedicinPakningStoerrelseTekst>50 stk.</MedicinPakningStoerrelseTekst>
+          <MedicinPakkeFormTekst>brusetabletter</MedicinPakkeFormTekst>
+          <MedicinEnkeltOrdinationStruktur>
+            <UUID>19528c53-b79b-43c5-b735-ec252fb6aa34</UUID>
+            <Dato>2009-08-27</Dato>
+            <IndikationNavn>mod alkoholisme</IndikationNavn>
+            <DoseringsMoensterTekst>2 tabletter daglig</DoseringsMoensterTekst>
+            <PakningsAntalKvantitet>1</PakningsAntalKvantitet>
+          </MedicinEnkeltOrdinationStruktur>
+        </MedicinOrdinationStruktur>
+        <MedicinOrdinationStruktur>
+          <PraeparatStruktur>
+            <PraeparatVareNavn>Panodil Retard</PraeparatVareNavn>
+            <PraeparatVareIdentifikator>034725</PraeparatVareIdentifikator>
+            <AtcKode>N02BE01</AtcKode>
+          </PraeparatStruktur>
+          <MedicinOrdinationStatusKode>fast</MedicinOrdinationStatusKode>
+          <MedicinStyrkeTekst>500 mg</MedicinStyrkeTekst>
+          <MedicinPakningStoerrelseTekst>100 stk.</MedicinPakningStoerrelseTekst>
+          <MedicinPakkeFormTekst>depottabletter</MedicinPakkeFormTekst>
+          <MedicinEnkeltOrdinationStruktur>
+            <UUID>9509a16f-7b9a-4d25-953b-65969b0916d6</UUID>
+            <Dato>2010-06-08</Dato>
+            <IndikationNavn>mod smerter</IndikationNavn>
+            <DoseringsMoensterTekst>1 tablet 2 gange daglig</DoseringsMoensterTekst>
+            <PakningsAntalKvantitet>2</PakningsAntalKvantitet>
+            <GenudleveringsAntalKvantitet>2</GenudleveringsAntalKvantitet>
+          </MedicinEnkeltOrdinationStruktur>
+        </MedicinOrdinationStruktur>
+        <MedicinOrdinationStruktur>
+          <PraeparatStruktur>
+            <PraeparatVareNavn>Antabus</PraeparatVareNavn>
+            <PraeparatVareIdentifikator>095588</PraeparatVareIdentifikator>
+            <AtcKode>N07BB01</AtcKode>
+          </PraeparatStruktur>
+          <MedicinOrdinationStatusKode>fast</MedicinOrdinationStatusKode>
+          <FMKPraeparatIdentifikator>68358</FMKPraeparatIdentifikator>
+          <MedicinStyrkeTekst>400 mg</MedicinStyrkeTekst>
+          <MedicinPakningStoerrelseTekst>50 stk.</MedicinPakningStoerrelseTekst>
+          <MedicinPakkeFormTekst>brusetabletter</MedicinPakkeFormTekst>
+          <MedicinEnkeltOrdinationStruktur>
+            <UUID>dd76e518-ca2c-481c-8176-91fbad906388</UUID>
+            <Dato>2012-06-01</Dato>
+            <IndikationNavn>mod alkoholisme</IndikationNavn>
+            <DoseringsMoensterTekst>2 tabletter daglig</DoseringsMoensterTekst>
+            <PakningsAntalKvantitet>1</PakningsAntalKvantitet>
+          </MedicinEnkeltOrdinationStruktur>
+        </MedicinOrdinationStruktur>
+        <MedicinOrdinationStruktur>
+          <PraeparatStruktur>
+            <PraeparatVareNavn>Panodil Retard</PraeparatVareNavn>
+            <PraeparatVareIdentifikator>034725</PraeparatVareIdentifikator>
+            <AtcKode>N02BE01</AtcKode>
+          </PraeparatStruktur>
+          <MedicinOrdinationStatusKode>seponeret</MedicinOrdinationStatusKode>
+          <MedicinStyrkeTekst>500 mg</MedicinStyrkeTekst>
+          <MedicinPakningStoerrelseTekst>100 stk.</MedicinPakningStoerrelseTekst>
+          <MedicinPakkeFormTekst>depottabletter</MedicinPakkeFormTekst>
+          <MedicinEnkeltOrdinationStruktur>
+            <UUID>367d1922-c780-4942-bc98-fcdfa409e469</UUID>
+            <Dato>2009-08-27</Dato>
+            <IndikationNavn>mod smerter</IndikationNavn>
+            <DoseringsMoensterTekst>1 tablet 2 gange daglig</DoseringsMoensterTekst>
+            <PakningsAntalKvantitet>2</PakningsAntalKvantitet>
+            <GenudleveringsAntalKvantitet>2</GenudleveringsAntalKvantitet>
+          </MedicinEnkeltOrdinationStruktur>
+        </MedicinOrdinationStruktur>
+      </MedicinOrdinationSamling>
+      <BinaerSamling>
+        <BinaerStruktur>
+          <UUID>e73f07f8-5b35-49ae-ad94-f82db393a132</UUID>
+          <OverskriftTekst>Ublu selvprmovering med en kommentar</OverskriftTekst>
+          <DatoTid>2012-05-31T22:00:00Z</DatoTid>
+          <ObjectReference>228</ObjectReference>
+          <FilNavn>228</FilNavn>
+          <BinaerIndholdKode>image</BinaerIndholdKode>
+          <FilTypeKode>png</FilTypeKode>
+          <FilLaengdeMaal>2917</FilLaengdeMaal>
+          <FilIndholdData>+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</FilIndholdData>
+        </BinaerStruktur>
+      </BinaerSamling>
+    </PatientUdtraekStruktur>
+  </PLOUdtraekStruktur>
+</PLOFormatStruktur>

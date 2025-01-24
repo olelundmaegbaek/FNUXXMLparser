@@ -1,0 +1,35 @@
+llm:
+  # OpenAI settings
+  base_url: "https://api.example.com/v1"
+  api_key: "your-api-key-here"  # Replace with your actual API key
+  model: "gpt-3.5-turbo"
+  
+  # Generation parameters
+  parameters:
+    temperature: 0.2
+    max_tokens: 1000
+    top_p: 1.0
+    frequency_penalty: 0.0
+    presence_penalty: 0.0
+    stop: ["</report>"]
+    
+  # Prompt configuration
+  prompt:
+    system_message: "Du er en erfaren dansk læge der skal lave et resume af patientdata."
+    format_instructions: |
+      Opret en professionel medicinsk resume med følgende struktur:
+      <report>
+      ## Medicinsk Resume
+      [Her skal du skriver resume af diagnoser og kontinuationer]
+      ### Vigtigste Oplysninger
+      [Her skal du fremhæve vigtige cave-oplysninger og vaccinationer]
+      
+      ### Klinisk Vurdering
+      [Her skal du give en faglig vurdering af informationerne]
+      </report>
+
+  # Logging configuration
+  logging:
+    enabled: true
+    level: "INFO"
+    file: "llm_calls.log"
