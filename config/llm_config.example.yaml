@@ -15,9 +15,9 @@ llm:
     
   # Prompt configuration
   prompt:
-    system_message: "Du er en erfaren dansk læge der skal lave et resume af patientdata."
+    system_message: "Du er en erfaren dansk læge der skal lave et samlet notat og komme med forslag til patientdata. Hold dine svar korte og præcise."
     format_instructions: |
-      Opret en professionel medicinsk resume med følgende struktur:
+      Opret et professionel medicinsk notat med følgende struktur:
       <report>
       ## Medicinsk Resume
       [Her skal du skriver resume af diagnoser og kontinuationer]

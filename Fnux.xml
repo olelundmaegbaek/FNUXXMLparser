@@ -67,7 +67,6 @@
             <LinieTekst>Penicillin giver gulsot.</LinieTekst>
           </KommentarLinieSamling>
           <UUID>632bf03c-93d6-408e-91d1-a4bd672b01ah</UUID>
-          <OverskriftTekst>Cave-oplysninger</OverskriftTekst>
           <KommentarLinieSamling>
             <LinieTekst>Morfin</LinieTekst>
             <LinieTekst>Giver anafylaktisk shock</LinieTekst>
@@ -82,7 +81,7 @@
           <BatchIdentifikator>1234</BatchIdentifikator>
           <LinieTekst>Skal på ferie i Afrika</LinieTekst>
           <UUID>f5cba89d-8e0f-4227-b804-e18b5afddb36</UUID>
-          <DatoTid>2012-06-01T09:33:05Z</DatoTid>
+          <DatoTid>2012-06-01T09:33:08Z</DatoTid>
           <VaccinationNavn>Dite</VaccinationNavn>
           <BatchIdentifikator>1234</BatchIdentifikator>
           <LinieTekst>Stikskade i arbejde som sgpl.</LinieTekst>
@@ -99,10 +98,7 @@
                 <t>Kendt tidl cancer. Har aktuelt mavepine og smerter i øvre abdomen. Usikkert hvor lang tid han har haft symptomer. Han har tabt sig en del på det sidste, det er uklart hvorfor. </t>
               </r>
               <r>
-                <rPr>
-                  <b />
-                </rPr>
-                <t>Opkast gennem 3 dage. Få kontakter til læge. </t>
+                <t>Opkast gennem 3 dage. Få kontakter til læge i øvrigt </t>
               </r>
             </p>
           </Tekst>
@@ -113,6 +109,16 @@
             <p xmlns="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
               <r>
                 <t>Kendt med leddegigt. Får biologisk behandling. Kendt rygsmerter siden 2000. Har I mange år kæmpet med forskellige typer af ledsmerter. </t>
+              </r>
+            </p>
+          </Tekst>
+          <UUID>89360672-358e-4473-b3c5-12974ee543cc</UUID>
+          <EgneNoterKode>Kontinuation</EgneNoterKode>
+          <DatoTid>2023-06-01T08:55:33Z</DatoTid>
+          <Tekst>
+            <p xmlns="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+              <r>
+                <t>Kendt med Diabetes Type 2. Debut under ferie i 2016. Får aktuelt Ozempic, Metformin og Lantus. Adm. selv medicinen.</t>
               </r>
             </p>
           </Tekst>
@@ -129,6 +135,9 @@
             <KlassifikationsIdentifikator>ICPCE</KlassifikationsIdentifikator>
             <Kode>D74</Kode>
             <KodeTekst>Kræft i mavesæk</KodeTekst>
+            <KlassifikationsIdentifikator>ICPCE</KlassifikationsIdentifikator>
+            <Kode>T90</Kode>
+            <KodeTekst>Diabetes Mellitus Type 2</KodeTekst>
           </KodeStruktur>
           <AekvivalentKodeStruktur>
             <KlassifikationsIdentifikator>ICD10</KlassifikationsIdentifikator>

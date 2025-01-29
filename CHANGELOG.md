@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Initial release of FNUX XML Parser
-- Core FNUX (XML) parsing functionality for medical data. See MedCom for details.
+- Core FNUX (XML) parsing functionality for medical data. See MedCom for details. 
 - Configuration system with YAML support
 - OpenAI integration for data processing
 - Command-line interface via `fnuxxmlparser` command
